@@ -10,6 +10,11 @@ public class CarTesting {
         familyCar.brakeApply();
         familyCar.drive();
         familyCar.pull();
-        familyCar.honk();
+        // familyCar.honk();
+
+        HybridCar hybridCar = new HybridCar();
+        hybridCar.brakeApply();
+        hybridCar.pull();
+        hybridCar.honk();
     }
 }
